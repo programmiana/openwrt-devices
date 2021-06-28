@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Downloads Openwrt</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav class="navbar primary-blue">
+      <a class="navbar-brand" href="#">
+        <img
+          src="/logo.svg"
+          height="70"
+          width="390"
+          class="d-inline-block align-top"
+          alt=""
+        />
+      </a>
+    </nav>
+    <div class="container p-3 mt-3">
+      <h1>Firmware Downloads</h1>
+      <p class="lead">
+        Welcome to the OpenWrt download area. Follow the links below to find the
+        appropriate directory.
+      </p>
+      <div class="card-deck mt-4">
+        <div class="card">
+          <div class="card-header bg-success text-white">Stable Release</div>
+          <div class="card-body">
+            <div class="card-text">
+              The current OpenWrt release is linked below. It is adviced to use
+              the latest available release if possible.
+            </div>
+            <a class="btn btn-primary btn-sm mt-3" href="">OpenWrt 19.07.7 </a>
+          </div>
+          <div class="card-footer text-muted">Released: Thu, 18 Feb 2021</div>
+        </div>
+        <div class="card">
+          <div class="card-header bg-warning text-darf">
+            Upcoming Stable Release
+          </div>
+          <div class="card-body">
+            <div class="card-text">
+              OpenWrt 21.02 will be the successor of the 19.07 series. It is
+              currently in the release candidate phase and will replace the
+              current stable release once finalized.
+            </div>
+            <a class="btn btn-primary btn-sm mt-3" href=""
+              >OpenWrt 21.02.0-rc3
+            </a>
+          </div>
+          <div class="card-footer text-muted">Released: Thu, 17 Jun 2021</div>
+        </div>
+        <div class="card">
+          <div class="card-header bg-danger text-white">
+            Development Snapshots
+          </div>
+          <div class="card-body">
+            <div class="card-text">
+              Development snapshots are automatic unattended daily builds of the
+              current OpenWrt development master branch. Bear in mind that these
+              images are generally not tested, use them at your own risk.
+            </div>
+
+            <a class="btn btn-primary btn-sm mt-3" href=""
+              >Snapshot Downloads
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <h2>Previous Releases</h2>
+        <p>Previous releases can be found <a href=""> here</a>.</p>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
